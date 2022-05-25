@@ -1,0 +1,22 @@
+{
+    "id": "OMORI Console+",
+    "name": "Console+",
+    "description": "Add more Commands to the OMORI Console",
+    "version": "0.0.0 (Beta)",
+    "files": {
+      "plugins": [
+        "/src/"
+      ],
+      "text": [],
+      "data": [],
+      "data_pluto": [],
+      "maps": [],
+      "assets": [],
+      "exec": [],
+      "plugins_delta": [],
+      "text_delta": [],
+      "maps_delta": [],
+      "data_delta": []
+    }
+  }
+  
