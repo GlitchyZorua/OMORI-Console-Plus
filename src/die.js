@@ -1,7 +1,8 @@
 
 if (typeof window.commands !== "undefined") {
-    const menuOnCommand = () => {
-        handler.log('Opened Menu. Press ESC to close the console', 'lime');
-    };
-    window.commands.add("menu");
+    const dieOnCommand = (handler) => {
+        SceneManager.goto(Scene_Gameover);
+        handler.log('Killed Sunny/Omori. Press ESC to close console', 'lime');
+    };   
+    window.commands.add("die", dieOnCommand);
 }
