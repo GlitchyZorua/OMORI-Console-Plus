@@ -8,7 +8,7 @@ if (typeof window.commands !== "undefined") {
   };
   const urlOnSuggestion = (args) => {
     if (args.length === 1) {
-        return ["https://google.com","https://retrojcities.neocities.org","https://startpage.com/"];
+        return ["https://google.com","https://retrojcities.neocities.org","https://startpage.com/"]; // value... fresh from my ass.
     }
     return [];
 };
