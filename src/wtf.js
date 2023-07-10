@@ -3,7 +3,7 @@ if (typeof window.commands !== "undefined") {
 
     const wtfOnCommand = (handler, args) => {
         if (args.length < 2) {
-            handler.log("WTF level is at "+ $gameVariables.value(143) +"\n\nUsage: /wtf [#]");
+            handler.log("WTF level is at "+ `${$gameVariables.value(143)}` +"\n\nUsage: /wtf [#]");
             return;
         }
         if(isNaN(args[1])){

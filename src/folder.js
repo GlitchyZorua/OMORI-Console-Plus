@@ -1,6 +1,6 @@
 
-let linuxpath = "/home/jacobw/.local/share/Steam/steamapps/common";
-let windowspath = "C:\Program Files\Steam\SteamApps\common\OMORI";
+let linuxpath = "/home/jacobw/.local/share/Steam/steamapps/common"; // for fuck sakes i don't understand why this will never work on linux. Probably because of wine or something, i don't know
+let windowspath = "C:\Program F0iles\Steam\SteamApps\common\OMORI";
 var gui = require('nw.gui')
 
 

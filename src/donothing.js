@@ -1,7 +1,7 @@
 
 if (typeof window.commands !== "undefined") {
     const donothingOnCommand = () => {
-     return;
+     return; 
     };
     window.commands.add("donothing", donothingOnCommand);
 }
