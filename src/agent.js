@@ -1,5 +1,5 @@
 if (typeof window.commands !== "undefined") {
-    const playtimeOnCommand = (handler) => {
+    const agentOnCommand = (handler) => {
             handler.log(navigator.userAgent); 
             return;
     };
