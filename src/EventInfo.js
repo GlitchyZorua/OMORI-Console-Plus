@@ -28,7 +28,7 @@ if (typeof window.commands !== "undefined") {
       handler.log(`X: ${event.x}`);
       handler.log(`Y: ${event.y}`);
       handler.log(`Erased: ${event._erased}`);
-      handler.log(`Self Switches: {${HandlerHelper.selfSwitchesToString($gameMap._mapId, event._eventId)}}`);
+      handler.log(`Self Switches: {${selfSwitchesToString($gameMap._mapId, event._eventId)}}`);
     } else {
       for (let event of events) {
         const inner = event.event();
