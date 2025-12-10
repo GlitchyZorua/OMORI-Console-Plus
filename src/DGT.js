@@ -1,5 +1,6 @@
-{
-  const fs = require('fs');
+
+if (typeof window.commands !== "undefined") {
+const fs = require('fs');
   const path = require("path");
   const base = path.dirname(process.mainModule.filename);
 
@@ -105,4 +106,4 @@
   }
   window.commands.add('addmacro', cmd_addMacro.cmd, cmd_addMacro.suggest)
   window.commands.add('removemacro', cmd_removeMacro.cmd, cmd_removeMacro.suggest)
-}
+    }
