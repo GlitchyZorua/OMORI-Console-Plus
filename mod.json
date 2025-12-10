@@ -2,7 +2,7 @@
     "id": "OMORI Console+",
     "name": "Console+",
     "description": "Add more Commands to the OMORI Console Mod",
-    "version": "0.5.1",
+    "version": "0.6.0b",
     "files": {
       "plugins": [
         "/src/"
